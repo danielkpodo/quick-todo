@@ -6,16 +6,40 @@ body {
   );
   background-size: 17px 17px;
   background-position: 0 0, 27px 27px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .container {
   max-width: 960px;
-  border: 1px solid red;
   margin: 80px auto;
   padding: 1rem 0.625rem;
+  background-color: #fff;
+}
+
+.action-controls {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 .content {
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto;
+}
+
+.btn {
+  outline: none;
+}
+
+.bi-x-octagon {
+  color: red;
+  font-weight: 800;
+}
+
+.bi-check2-circle {
+  color: green;
+  font-weight: 800;
+}
+
+table {
+  padding: 0 1rem;
 }
