@@ -1,0 +1,21 @@
+body {
+  background-color: #f7f7fc;
+  background-image: radial-gradient(
+    #444cf7 0.8500000000000001px,
+    #f7f7fc 0.8500000000000001px
+  );
+  background-size: 17px 17px;
+  background-position: 0 0, 27px 27px;
+}
+
+.container {
+  max-width: 960px;
+  border: 1px solid red;
+  margin: 80px auto;
+  padding: 1rem 0.625rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
